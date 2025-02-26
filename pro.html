@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/f622ba580f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="pro.css">
+</head>
+
+<body>
+  <div class="bg">
+  <div class="world2">
+    <div class="world" id="world">
+      <div class="header">
+        <div class="ready">
+          <i class="fa-regular fa-sun"></i>
+
+          <div class="toggle-container">
+            <div class="toggle" onclick="toggle()">
+              <div class="circle"></div>
+            </div>
+          </div>
+
+          <i class="fa-solid fa-moon"></i>
+        </div>
+
+      </div>
+
+      <div class="container">
+        <div class="con">
+          <h2 class="wel">Welcome to the</h2>
+          <h1 class="quiz">Frontend Quiz!</h1>
+          <h6 class="you">Pick a subject to get started</h6>
+        </div>
+        <div class="main">
+          <!-- <div class="main1"> -->
+          <div class="main2">
+            <div class="fit">
+              <i class="fa-solid fa-code" style="color: #FFD43B; " class="spo"></i>
+            </div>
+            <span class="ml"><a class="css" href="html.html">HTML</a></span>
+          </div>
+          <div class="main2">
+            <div class="fita">
+              <i class="fa-brands fa-css3-alt" style="color: #63E6BE;"></i>
+            </div>
+            <span class="ml">CSS</span>
+          </div>
+          <div class="main2">
+            <div class="fitb">
+              <i class="fa-brands fa-js"></i>
+            </div>
+            <span class="ml">Javascript</span>
+          </div>
+          <div class="main2">
+            <div class="fitc">
+              <i class="fa-brands fa-accessible-icon" style="color: purple;"></i>
+            </div>
+            <span class="ml">Accessibility</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src="pro.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+<!-- .toggle-container{
+  display: flex;
+  color: blue;
+  gap: 8px;
+  margin-left: 60px;
+}
+
+.toggle-container .text span{
+  color: bisque;
+}
+.toggle-container .text span:nth-child(1){
+  color:red;
+}
+.toggle-container .text span:nth-child(3):hover{
+  color:rgb(141, 224, 7);
+}
+
+
+
+
+.toggle {
+  position: relative;
+  width: 40px; 
+  height: 20px;                                     
+  border: 2px solid #06f76a;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.circle {
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #06f76a;
+  transition: .3s;
+}
+
+.text{
+  margin-top: 4px;
+}
+
+.active {
+  border-color: rgb(235, 6, 63);
+}
+
+.active + .text {
+  font-weight: 400;
+  color: rgb(235, 6, 63);
+}
+
+.active .circle {
+  left: 100%;
+  transform: translateX(-100%);
+  transition: .3s;
+  background-color: rgb(235, 6, 63);
+}
+ -->
+<!-- let active = false;
+
+
+ function toggle() {
+     let toggle = document.querySelector('.toggle')
+     let text = document.querySelector('.text')
+     active = !active
+     if (active) {
+         toggle.classList.add('active')
+         text.innerHTML = 'NO'
+     } else {
+         toggle.classList.remove('active')
+         text.innerHTML = '<span style="color:#06f76a; font-weight:400">Yes </span>'
+     }
+ } -->
+
+<!-- <div class="toggle-container">
+ <div class="toggle" onclick="toggle()">
+     <div class="circle"></div>
+ </div>
+ <span class="text">Yes</span>
+ </div> -->

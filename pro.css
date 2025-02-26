@@ -1,0 +1,201 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bg{
+  background-image: url("./image/tec.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.world2{
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px;
+}
+.world{
+   background-color:#040d16;
+  color: white;
+  width: 55%;
+  min-height: 50vh;
+  padding:20px;
+  margin-top: 150px;
+  border-radius: 20px;
+  
+}
+.header{
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+}
+.ready{
+  padding: 15px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  
+}
+
+
+.toggle-container{
+  display: flex;
+  color: blue;
+  gap: 8px;
+  margin-left: 60px;
+}
+
+.toggle-container .text span{
+  color: bisque;
+}
+.toggle-container .text span:nth-child(1){
+  color:red;
+}
+.toggle-container .text span:nth-child(3):hover{
+  color:rgb(141, 224, 7);
+}
+
+
+
+
+.toggle {
+  position: relative;
+  width: 40px; 
+  height: 20px;                                     
+  border: 2px solid #06f76a;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.circle {
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #06f76a;
+  transition: .3s;
+}
+
+.text{
+  margin-top: 4px;
+}
+
+.active {
+  border-color: rgb(235, 6, 63);
+}
+
+.active + .text {
+  font-weight: 400;
+  color: rgb(235, 6, 63);
+}
+
+.active .circle {
+  left: 100%;
+  transform: translateX(-100%);
+  transition: .3s;
+  background-color: rgb(235, 6, 63);
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* padding: 5px 100px; */
+  margin-right: 50px;
+  margin-left: 100px;
+  
+}
+.container .con .wel {
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+}
+/* .container .con{
+  display: grid;
+  grid-template-rows:30% ;
+} */
+.container .con .quiz{
+  margin-top: 2px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+}
+.container .con .you{
+  margin-top: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+}
+
+.main{
+ margin-top: 12px;
+ vertical-align: top;
+}
+.main1{
+  
+  
+}
+.main2{
+   display:flex;
+   margin-bottom: 7px;
+   background-color:#444646;
+   width: 260px;
+   height: 40px;
+   text-align: center; 
+   align-items: center;
+   padding: 5px;
+   border-radius: 8px;
+}
+ .main2 i{
+  padding: 5px;
+  align-items: center;
+  
+ }
+ .main .fit {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  align-content: center;
+  border-radius: 5px;
+ }
+ .main2 .ml .css{
+  padding: 10px;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  margin-left: 1px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .main .fita{
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  align-content: center;
+  border-radius: 5px;
+  text-align: center;
+  
+ }
+ .fitb{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(231, 231, 248);
+  border-radius: 5px;
+  align-content: center;
+  text-align: center;
+  
+}
+.fitc{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(239, 193, 239);
+  border-radius: 5px;
+  align-content: center;
+  text-align: center;
+  
+}

@@ -1,0 +1,108 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.world{
+  background-color: white;
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+}
+.worlda{
+  width: 400px;
+  height: 550px;
+  background-color: rgb(67, 66, 66);
+  padding-left: 30px;
+  justify-content: center;
+}
+.header{
+  display: flex;
+  justify-content: flex-end;
+  padding: 7px 32px;
+  margin-top: 18px;
+}
+.worlda .text .first{
+  margin-top: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 29px;
+  color: white;
+}
+.worlda .text .front{
+  margin-top: 3px;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 20px;
+  color: white;
+  padding: 1px;
+}
+.worlda .text h6{
+  margin-top:10px ;
+  color: white;
+  line-height: 20px;
+  font-family: cursive;
+  font-size: 9px;
+}
+.topic{
+  margin-top: 40px;
+align-content: center;
+}
+/* .back1{
+  background-color: purple;
+  color: white; */
+
+
+ .topa{
+  /* line-height: 50px; */
+  display: flex;
+  background-color: rgb(80, 74, 74);
+  width: 350px;
+  height: 40px;
+  padding-left: 5px;
+  border-radius: 10px;
+  color: #fff;
+  margin-bottom: 10px;
+  align-content: baseline;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  align-content: center;
+  align-items: center;
+}
+.topa .back{
+  padding-left: 14px;
+}
+.fit{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(250, 250, 184);
+  border-radius: 5px;
+  align-content: center;
+  text-align: center;
+  margin-left: 7px
+}
+.fita{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(246, 248, 246);
+  border-radius: 5px;
+  align-content: center;
+  text-align: center;
+  margin-left: 7px
+}
+.fitb{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(231, 231, 248);
+  border-radius: 5px;
+  align-content: center;
+  text-align: center;
+  margin-left: 7px
+}
+.fitc{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(239, 193, 239);
+  border-radius: 5px;
+  align-content: center;
+  text-align: center;
+  margin-left: 7px
+}
